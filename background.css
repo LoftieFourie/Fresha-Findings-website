@@ -1,0 +1,63 @@
+body{	
+	background-color:hsla(0,0%,100%,1);
+	background-image:
+	radial-gradient(at 41% 8%, hsla(37,100%,50%,1) 0px, transparent 50%),
+	radial-gradient(at 88% 61%, hsla(140,100%,73%,1) 0px, transparent 50%),
+	radial-gradient(at 0% 50%, hsla(69,100%,73%,1) 0px, transparent 50%),
+	radial-gradient(at 81% 9%, hsla(54,100%,73%,1) 0px, transparent 50%),
+	radial-gradient(at 0% 98%, hsla(96,100%,73%,1) 0px, transparent 50%),
+	radial-gradient(at 80% 100%, hsla(31,100%,50%,1) 0px, transparent 50%),
+	radial-gradient(at 0% 0%, hsla(57,100%,73%,1) 0px, transparent 50%);
+	background-attachment: fixed;
+}
+
+div.header {
+	background-color: rgba(242, 242, 242, 0.7);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+div.info {
+  background-color: rgba(242, 242, 242, 1);
+  width: 1000px;
+  border: 15px;
+  border-style: solid;
+  border-color:hsla(100,81%,76%,1);
+  padding: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+.h1 {
+	font-family: "Brush Script MT", cursive;
+}
+
+div.logo img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 120px;
+	position : relative;
+	top : 20px;
+}
+
+div.logo2 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 120px;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+	font-size: 25px;
+	text-align: center;
+	background-color: hsl(22,100%,77%,1);
+	border-radius: 5px;
+	padding: 5px;
+}
+</style>
+<link rel="stylesheet" href="SignUp.css">
+<link rel="stylesheet" href="background.css">
+<title>Fresha Sign up</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<div class="header">
+	<div class="logo2">
+		<a target="_Fresha" href="Fresha Findings.html">
+			<img src="fresh.png" alt="Fresha">
+		</a>
+	</div>
+</div>
+<div>
+<span class="a">
+  <form action="connect.php">
+	<p>Sign Up</p>
+    <label for="Name">First Name</label><br>
+    <input type="text" id="txtName" name="txtName" placeholder="Your name.."><br>
+
+    <label for="Surname">Surame</label><br>
+    <input type="text" id="txtSurname" name="txtSurname" placeholder="Your surname.."><br>
+	
+	<label for="email">Email</label><br>
+    <input type="text" id="txtEmail" name="txtEmail" placeholder="Your Email.."><br>
+
+    <label for="country">Province</label><br>
+    <select id="txtProvince" name="txtProvince">
+		<option value="limpopo">Limpopo</option>
+		<option value="gauteng">Gauteng</option>
+		<option value="north-west">North-West</option>
+		<option value="freestate">Free State</option>
+		<option value="mpumalanga">Mpumalanga</option>
+		<option value="kwazulu-natal">KwaZulu-Natal</option>
+		<option value="notherncape">Northern Cape</option>
+		<option value="easterncape">Eastern Cape</option>
+		<option value="westerncape">Western Cape</option>
+    </select>
+	
+	<label for="password">Password</label><br>
+    <input type="password" id="txtPassword" name="txtPassword" minlenth="8" placeholder="Minimum 8 characters"><br>
+	
+	<label for="cpwd">Confirm Password</label><br>
+    <input type="password" id="cpwd" name="cpwd" placeholder="Confirm password.."><br>
+  
+    <a target="_Fresha" href="Fresha Findings.html"><input type="submit" name= "Submit" id="Submit" value="Submit"></a>
+  </form>
+ </span>
+</div>
+
+</body>
+</html>

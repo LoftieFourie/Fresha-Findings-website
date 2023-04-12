@@ -1,0 +1,91 @@
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  background-color: #f2f2f2;
+  transition-duration: 0.4s;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  background-color: hsla(151,100%,56%,1);
+  color: white;
+}
+
+div.gallery img {
+  width: 178px;
+  height: 150px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid-container {
+  display: grid;
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+  background-color: rgba(242, 242, 242, 1);
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  background-color: rgba(242, 242, 242, 0.9);
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.grid-container3 {
+  display: grid;
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 50px;
+  background-color: rgba(242, 242, 242, 1);
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.grid-container > div {
+	
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 20px;
+}
